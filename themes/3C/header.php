@@ -31,11 +31,7 @@
 </script>
 
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
-<?php wp_head(); 
-$lang = isset($_GET['lang']) ? '?lang='.esc_attr($_GET['lang']) : '';
-echo $lang;
-
-?>
+<?php wp_head(); ?>
 
 </head>
 <body<?php if (is_front_page()) echo(' id="home"'); ?>>
@@ -52,7 +48,7 @@ echo $lang;
 					
 			<!-- Start Searchbox -->
 				<div id="search-form">
-					<form method="get" id="searchform1" action="<?php echo home_url($lang); ?>/">
+					<form method="get" id="searchform1" action="<?php echo home_url(); ?>/">
 						<input type="text" value="<?php esc_attr_e('search this site...','3C'); ?>" name="s" id="searchinput" />
 					</form>
 				</div>
