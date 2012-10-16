@@ -40,7 +40,10 @@ $t='';
 $args = array(
     'post_title_like' => $s,
     'post_type' =>'entreprise',
+    'orderby'=>'title',
+    'order'=>'ASC',
     'posts_per_page=' =>10,
+    'nopaging' => true,
     'paged=' =>$paged,
 );
 

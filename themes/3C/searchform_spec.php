@@ -5,7 +5,7 @@
 $sel=get_query_var('categorie_entreprise');
 $s=$_GET['src']?$_GET['src']:$_GET['s'];
 
-$posts=get_posts('post_type=entreprise');
+$posts=get_posts('post_type=entreprise&posts_per_page=-1');
 
 /*foreach ($posts as $post_values) {
    $array_id[] = $post_values->ID;
@@ -30,9 +30,6 @@ foreach($posts as $post){
 $terms = wp_get_object_terms($id_posts,'categorie_entreprise',array('orderby' => 'name', 'order' => 'ASC', 'fields' => 'all'));
 
 
-//$terms=array_unique($t);
-//echo serialize($terms );
-
 $parents=array();
 $children=array();
 $used=array();
@@ -43,13 +40,12 @@ foreach($terms AS $term){
 		if($parent==0){
 			$parents[]=$term;
 		}
-		else {
+		else {echo 1;
 			//$parents[]=get_term($parent,'categorie_entreprise');
 			$children[$parent][$term->name]=array('term_id'=>$term->term_id,'name'=>$term->name,'slug'=>$term->slug);
 			}
 		}
-	
-//sort($parents);
+
 
 ?>
 

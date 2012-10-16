@@ -32,7 +32,7 @@ Template Name: Author Page
 		
 		
 
-        $result = $wpdb->get_results("SELECT * from $wpdb->users  WHERE $wpdb->users.user_nicename LIKE '%$search%' ");                       
+        $result = $wpdb->get_results("SELECT * from $wpdb->users  WHERE $wpdb->users.user_nicename LIKE '%$search%' ORDER BY last_name");                       
                                         
 
 		}
