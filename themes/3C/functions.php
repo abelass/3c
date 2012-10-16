@@ -1,4 +1,29 @@
 <?php 
+
+// Fix for menu not dipalying the right language
+add_filter('walker_nav_menu_start_el', 'qtrans_in_nav_el', 10, 4);
+function qtrans_in_nav_el($item_output, $item, $depth, $args){
+    $attributes  = ! empty( $item->attr_title ) ? ' title="'  . esc_attr( $item->attr_title ) .'"' : '';
+    $attributes .= ! empty( $item->target )     ? ' target="' . esc_attr( $item->target     ) .'"' : '';
+    $attributes .= ! empty( $item->xfn )        ? ' rel="'    . esc_attr( $item->xfn        ) .'"' : '';
+    
+   // Determine integration with qTranslate Plugin
+   if (function_exists('qtrans_convertURL')) {
+      $attributes .= ! empty( $item->url ) ? ' href="' . qtrans_convertURL(esc_attr( $item->url )) .'"' : '';
+   } else {
+      $attributes .= ! empty( $item->url ) ? ' href="' . esc_attr( $item->url ) .'"' : '';
+   }
+   
+   $item_output = $args->before;
+   $item_output .= '<a'. $attributes .'>';
+   $item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
+   $item_output .= '</a>';
+   $item_output .= $args->after;
+      
+   return $item_output;
+}
+
+
 add_action( 'after_setup_theme', 'et_setup_theme' );
 if ( ! function_exists( 'et_setup_theme' ) ){
 	function et_setup_theme(){
@@ -45,6 +70,8 @@ function register_main_menus() {
 	);
 };
 if (function_exists('register_nav_menus')) add_action( 'init', 'register_main_menus' );
+
+
 
 /*if ( ! function_exists( 'et_list_pings' ) ){
 	function et_list_pings($comment, $args, $depth) {
