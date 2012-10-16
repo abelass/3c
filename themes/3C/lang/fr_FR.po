@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-19 15:19+0100\n"
-"PO-Revision-Date: 2012-09-19 15:19+0100\n"
+"POT-Creation-Date: 2012-09-19 12:26+0100\n"
+"PO-Revision-Date: 2012-09-19 15:16+0100\n"
 "Last-Translator: Rainer <websolutions@mychacra.net>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -266,11 +266,11 @@ msgstr "Profile"
 msgid "Coordon&eacute;es"
 msgstr "Coordon&eacute;es"
 
-#: ../author.php:161
+#: ../author.php:147
 msgid "Les Entreprises"
 msgstr "Les Entreprises"
 
-#: ../author.php:236
+#: ../author.php:219
 msgid "Access non authorise, devenez membre"
 msgstr "L'usage de l'annuaire est réservé exclusivement pour nos membres. Nous vous invitons à vous inscrire <a href=\"http://3c.spade.be/fr/contact-us/inscription-membres\">ici</a> . Merci pour votre compréhension."
 
