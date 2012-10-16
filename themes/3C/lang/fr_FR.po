@@ -1,0 +1,463 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 3c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-19 15:19+0100\n"
+"PO-Revision-Date: 2012-09-19 15:19+0100\n"
+"Last-Translator: Rainer <websolutions@mychacra.net>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../taxonomy.php:135
+msgid "Nothing Found"
+msgstr "Rien trouvé"
+
+#: ../taxonomy.php:139
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Désolé, cette requête ne donne pas de résultat"
+
+#: ../searchform.php:15
+#: ../searchform_spec.php:64
+msgid "Choisir categorie"
+msgstr "Choisir catégorie..."
+
+#: ../searchform.php:16
+#: ../searchform_spec.php:87
+msgid "Voir"
+msgstr "Voir"
+
+#: ../page-contact.php:25
+msgid "Numbers regenerated."
+msgstr ""
+
+#: ../functions.php:42
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:43
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:79
+msgid "entreprises"
+msgstr "Entreprises"
+
+#: ../functions.php:80
+msgid "entreprise"
+msgstr "Entreprise"
+
+#: ../functions.php:81
+msgid "Companies"
+msgstr "Entreprises"
+
+#: ../functions.php:82
+msgid "Add company"
+msgstr "Ajouter entreprise"
+
+#: ../functions.php:83
+msgid "Add A New Company"
+msgstr "Ajouter une nouvelle entreprise"
+
+#: ../functions.php:84
+msgid "Edit Company Profile"
+msgstr "Éditer profile entreprise"
+
+#: ../functions.php:85
+msgid "Edit Company"
+msgstr "Éditer entreprise"
+
+#: ../functions.php:86
+msgid "New Company"
+msgstr "Nouvelle entreprise"
+
+#: ../functions.php:87
+#: ../functions.php:88
+msgid "Preview Company"
+msgstr "Prévisualisation entreprise"
+
+#: ../functions.php:89
+msgid "Search Company"
+msgstr "Recherche Entreprise"
+
+#: ../functions.php:90
+msgid "Company Not Found"
+msgstr "Entreprise pas trouvé"
+
+#: ../functions.php:91
+msgid "Company Not Found TO TRASH"
+msgstr "Entreprise pas trouvé dans la poubelle"
+
+#: ../functions.php:92
+msgid "Parent Company"
+msgstr "Entreprise parente"
+
+#: ../functions.php:230
+#: ../functions.php:782
+msgid "Information additionnel"
+msgstr "Informations additionnelles"
+
+#: ../functions.php:368
+#: ../functions.php:718
+msgid "fonction"
+msgstr "Fonction"
+
+#: ../functions.php:369
+#: ../functions.php:740
+msgid "formation"
+msgstr "Formation"
+
+#: ../functions.php:370
+#: ../functions.php:762
+msgid "niveau_experience"
+msgstr "Niveau Expérience"
+
+#: ../functions.php:371
+#: ../functions.php:403
+msgid "Company type"
+msgstr "Type d'entreprise"
+
+#: ../functions.php:372
+msgid "Company category"
+msgstr "Catégorie d'entreprise"
+
+#: ../functions.php:422
+#: ../functions.php:423
+msgid "Select type"
+msgstr "Choisir le type"
+
+#: ../functions.php:551
+#: ../functions.php:586
+#: ../functions.php:621
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: ../functions.php:673
+msgid "site_web"
+msgstr "Site personnel"
+
+#: ../functions.php:674
+msgid "facebook"
+msgstr "Facebook"
+
+#: ../functions.php:675
+msgid "twitter"
+msgstr "Twitter"
+
+#: ../functions.php:676
+msgid "google_plus"
+msgstr "Google+"
+
+#: ../functions.php:677
+msgid "Skype"
+msgstr "Skype"
+
+#: ../functions.php:678
+msgid "jabber_google"
+msgstr "Jabber/Google Talk"
+
+#: ../functions.php:678
+msgid "Google Talk"
+msgstr ""
+
+#: ../functions.php:703
+msgid "Informations Professionnelles"
+msgstr "Informations Professionnelles"
+
+#: ../functions.php:708
+msgid "Choisir Fonction"
+msgstr "Choisir Fonction"
+
+#: ../functions.php:715
+msgid "Aucune Fonction"
+msgstr "Aucune Fonction"
+
+#: ../functions.php:724
+msgid "Aucune fonction disponible"
+msgstr "Aucune fonction disponible"
+
+#: ../functions.php:730
+msgid "Choisir Formation"
+msgstr "Choisir Formation"
+
+#: ../functions.php:737
+msgid "Aucune Formation"
+msgstr "Aucune Formation"
+
+#: ../functions.php:746
+msgid "Aucune formation disponible"
+msgstr "Aucune formation disponible"
+
+#: ../functions.php:752
+msgid "Choisir experience"
+msgstr "Choisir Expérience"
+
+#: ../functions.php:759
+msgid "Aucune experience"
+msgstr "Aucune expérience"
+
+#: ../functions.php:768
+msgid "Aucune experience disponible"
+msgstr "Aucune experience disponible"
+
+#: ../functions.php:774
+msgid "annnee_experience_comm_corp"
+msgstr "Année d'expérience en communication corporative"
+
+#: ../functions.php:787
+msgid "adresse_prive"
+msgstr "Adresse privé"
+
+#: ../functions.php:794
+msgid "numero"
+msgstr "Numéro"
+
+#: ../functions.php:801
+msgid "code_postal"
+msgstr "Code postal"
+
+#: ../functions.php:808
+msgid "ville"
+msgstr "Ville"
+
+#: ../functions.php:815
+msgid "telephone"
+msgstr "Téléphone"
+
+#: ../functions.php:822
+msgid "fax"
+msgstr "Fax"
+
+#: ../functions.php:843
+msgid "date_naissance"
+msgstr "Date de naissance"
+
+#: ../functions.php:850
+msgid "lang"
+msgstr "Langue"
+
+#: ../functions.php:859
+msgid "Preview profile"
+msgstr "Prévisualisation profile"
+
+#: ../functions.php:1032
+msgid "Save Changes"
+msgstr "Enregistrer changements"
+
+#: ../author.php:84
+msgid "Choisir Membre"
+msgstr "Choisir un membre"
+
+#: ../author.php:87
+msgid "Voir la Fiche"
+msgstr "Voir la fiche"
+
+#: ../author.php:120
+msgid "Profile"
+msgstr "Profile"
+
+#: ../author.php:121
+msgid "Coordon&eacute;es"
+msgstr "Coordon&eacute;es"
+
+#: ../author.php:161
+msgid "Les Entreprises"
+msgstr "Les Entreprises"
+
+#: ../author.php:236
+msgid "Access non authorise, devenez membre"
+msgstr "L'usage de l'annuaire est réservé exclusivement pour nos membres. Nous vous invitons à vous inscrire <a href=\"http://3c.spade.be/fr/contact-us/inscription-membres\">ici</a> . Merci pour votre compréhension."
+
+#: ../single-entreprise.php:41
+#: ../content-entreprise.php:34
+#: ../entreprise_nu.php:28
+msgid "Contact"
+msgstr "Contacte"
+
+#: ../single-entreprise.php:59
+#: ../content-entreprise.php:48
+#: ../entreprise_nu.php:42
+msgid "Websites"
+msgstr "Site web"
+
+#: ../single-entreprise.php:61
+#: ../content-entreprise.php:50
+#: ../entreprise_nu.php:44
+msgid "Site Internet"
+msgstr "Site Internet"
+
+#: ../single-entreprise.php:61
+#: ../content-entreprise.php:50
+#: ../entreprise_nu.php:44
+msgid "Twitter"
+msgstr ""
+
+#: ../single-entreprise.php:75
+#: ../content-entreprise.php:60
+#: ../entreprise_nu.php:54
+msgid "Pages:"
+msgstr ""
+
+#: ../single-entreprise.php:87
+msgid "Membre de "
+msgstr "Membres de "
+
+#: ../single-entreprise.php:116
+#: ../single-entreprise.php:119
+#: ../content-entreprise.php:102
+#: ../content-entreprise.php:105
+#: ../entreprise_nu.php:96
+#: ../entreprise_nu.php:99
+msgid ", "
+msgstr ""
+
+#: ../single-entreprise.php:122
+#: ../content-entreprise.php:108
+#: ../entreprise_nu.php:102
+msgid "Edit"
+msgstr "Editer"
+
+#: ../content-entreprise.php:71
+msgid "Membres"
+msgstr ""
+
+#: ../content-entreprise.php:85
+#: ../entreprise_nu.php:79
+msgid "Fonction"
+msgstr "Fonction"
+
+#: ../comments.php:21
+#: ../comments.php:34
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Commentaires anciens"
+
+#: ../comments.php:22
+#: ../comments.php:35
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nouveau commentaires <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../entreprise_nu.php:65
+msgid "Membre de"
+msgstr "Membres de"
+
+#: ../search.php:34
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: ../search.php:66
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Pas de résultat"
+
+#: ../epanel/core_functions.php:347
+msgid "This will return all of the settings throughout the options page to their default values. <strong>Are you sure you want to do this?"
+msgstr ""
+
+#: ../epanel/custom_functions.php:301
+msgid "Home"
+msgstr "Accueil"
+
+#: ../epanel/custom_functions.php:666
+msgid "Image doesn't exist"
+msgstr "Image n'existe pas"
+
+#: ../epanel/custom_functions.php:830
+#, php-format
+msgid "<div class=\"updated\"><p>This is a fresh installation of %1$s theme. Don't forget to go to <a href=\"%2$s\">ePanel</a> to set it up. This message will disappear once you have clicked the Save button within the <a href=\"%2$s\">theme's options page</a>.</p></div>"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:303
+#, php-format
+msgid "Not a member? <a href=\"%s\">Register today!</a>"
+msgstr "Pas membre ? <a href=\"%s\">Inscrivez-vous aujourd'hui</a>"
+
+#: ../epanel/shortcodes/shortcodes.php:356
+msgid "Click here to learn more"
+msgstr ""
+
+#~ msgid "Choisir"
+#~ msgstr "Choisir membre"
+
+#~ msgid "Acceder fiche membre"
+#~ msgstr "Accéder à la fiche membre"
+
+#~ msgid "Site Internet personnel"
+#~ msgstr "Site Internet personnel"
+
+#~ msgid "Formation"
+#~ msgstr "Formation"
+
+#~ msgid "Niveau Experience"
+#~ msgstr "Niveau Expérience"
+
+#~ msgid "Search"
+#~ msgstr "Recherche"
+
+#~ msgid "Ajouter Entreprise"
+#~ msgstr "Ajouter Entreprise"
+
+#~ msgid "Ajouter Nouvelle Entreprise"
+#~ msgstr "Ajouter Nouvelle Entreprise"
+
+#~ msgid "Editer Entreprise"
+#~ msgstr "Editer Entreprise"
+
+#~ msgid "Nouvelle Entreprise"
+#~ msgstr "Nouvelle Entreprise"
+
+#~ msgid "Previsualiser Entreprise"
+#~ msgstr "Previsualiser Entreprise"
+
+#~ msgid "Previsualiser l Entreprise"
+#~ msgstr "Previsualiser l Entreprise"
+
+#~ msgid "Recherche Entreprise"
+#~ msgstr "Recherche Entreprise"
+
+#~ msgid "Entreprise pas trouve"
+#~ msgstr "Entreprise pas trouve"
+
+#~ msgid "Entreprise pas trouve poubelle"
+#~ msgstr "Entreprise pas trouve poubelle"
+
+#~ msgid "Entreprise parente"
+#~ msgstr "Entreprise parente"
+
+#~ msgid "Annuaire"
+#~ msgstr "Annuaire"
+
+#~ msgid "Adresse"
+#~ msgstr "Adresse"
+
+#~ msgid "Code postal"
+#~ msgstr "Code postal"
+
+#~ msgid "Ville"
+#~ msgstr "Ville"
+
+#~ msgid "Tva"
+#~ msgstr "Tva"
+
+#~ msgid "Telephone"
+#~ msgstr "Téléphone"
+
+#~ msgid "Fax"
+#~ msgstr "Fax"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Les employes"
+#~ msgstr "Les employes"
+
+#~ msgid "E-mail"
+#~ msgstr "Email"
+
+#~ msgid "Secteur Activite"
+#~ msgstr "Secteur Activité"

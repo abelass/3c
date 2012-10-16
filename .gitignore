@@ -1,0 +1,9 @@
+*.class
+*.pyc
+*.pyo
+/languages
+/plugins
+/uploads
+/themes/3C_bp
+/themes/twentyeleven
+/themes/twentyten
