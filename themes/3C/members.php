@@ -9,6 +9,3 @@ get_header();
 
 include(locate_template('category.php'));
 ?>
- 
-
-bfgsdfgsdfg
