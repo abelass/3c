@@ -85,7 +85,7 @@ Template Name: Author Page
     
     <?php } 
     ?>
-        <div class="side-by-side clearfix" style="width:5000px;">
+        <div class="side-by-side clearfix">
     <form method="get" id="searchform"  action="<?php echo home_url('/'.qtrans_getLanguage().'/'); ?>">
 		<?php wp_dropdown_users(array('show_option_none'=>__('Choisir Membre','3C'),'name'=>'author','class'=>'author chzn-select-deselect','include'=>$id_abonnes,'style'=>'width:350px'));  ?>
 
