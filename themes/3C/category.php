@@ -27,7 +27,22 @@ $args = array(
   'base' => add_query_arg( 'paged', '%#%' ),
 );
 
-query_posts('cat='.$cat_id.'&type_entreprise='.$type_entreprise.'&post_type=entreprise&posts_per_page=20&paged='.$paged);
+$args = array(
+    'post_title_like' => $s,
+    'post_type' =>'entreprise',
+    'orderby'=>'title',
+    'order'=>'ASC',
+    'posts_per_page=' =>20,
+    'nopaging' => true,
+    'paged=' =>$paged,
+);
+
+if($term)$args['categorie_entreprise']=$term->slug;
+if($type_entreprise)$args['type_entreprise']=$type_entreprise;
+query_posts($args);
+
+
+//query_posts('cat='.$cat_id.'&type_entreprise='.$type_entreprise.'&post_type=entreprise&posts_per_page=20&paged='.$paged);
 
 /*echo $cat_id.$type_entreprise; 
 echo serialize($args);*/
