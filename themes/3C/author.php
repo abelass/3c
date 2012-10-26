@@ -189,7 +189,8 @@ Template Name: Author Page
 					$args = array(
 						'orderby' => 'user_registered',
 						'include' => $abonnes,
-						'order' => 'DESC',
+						'orderby' => 'display_name',						
+						'order' => 'ASC',
 						'number' => 10,
 						 );
 					
