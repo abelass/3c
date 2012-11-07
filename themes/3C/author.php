@@ -235,13 +235,8 @@ Template Name: Author Page
 
 						endwhile; endif; ?>
 				</h1>	
-				<?php
-					$category_description = category_description();
-					if ( ! empty( $category_description ) )
-						echo apply_filters( 'category_archive_meta', '<div class="category-archive-meta">' . $category_description . '</div>' );
-				?>
 				</header>
-					<?php echo '<p>'.__('Access non authorise, devenez membre','3C').'
+					<?php echo '<p>'.__('Access non authorise - devenez membre','3C').'
 					</p>';	
 					
 					}
