@@ -1021,11 +1021,25 @@ add_shortcode( 'access_entreprise_full', 'access_check_shortcode' );
 
 function access_check_shortcode( $attr, $content = null ) {
 
-	extract( shortcode_atts( array( 'capability' => 'access_entreprise_full',  'capability' => 'member-full-access-associated'), $attr ) );
+	/*extract( shortcode_atts( array( 'capability' => 'access_entreprise_full' ), $attr ) );
+    
+
 
 	if ( current_user_can( $capability ) && !is_feed() )
 		return 'true';
+*/
 
+
+   $current_user = wp_get_current_user();
+   
+   $aut=array('member-full-access-associated','member-full-access');
+   
+   $cap=array_flip($current_user->caps);
+   
+   if(!is_array($cap))$cap=array();
+   
+   if(in_array($cap[1],$aut))return true;
+    
 	return '';
 }
 
