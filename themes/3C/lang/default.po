@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3c2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-19 15:19+0100\n"
-"PO-Revision-Date: 2012-09-19 15:19+0100\n"
+"POT-Creation-Date: 2012-11-07 11:11+0100\n"
+"PO-Revision-Date: 2012-11-07 11:11+0100\n"
 "Last-Translator: Rainer <websolutions@mychacra.net>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -14,21 +14,29 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: /home/abelass/www/3c/wp-content/themes/3C\n"
 
-#: /home/abelass/www/3c/wp-content/themes/3C/taxonomy.php:135
+#: /home/abelass/www/3c/wp-content/themes/3C/search_or.php:32
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: /home/abelass/www/3c/wp-content/themes/3C/search_or.php:60
+#: /home/abelass/www/3c/wp-content/themes/3C/taxonomy.php:122
 msgid "Nothing Found"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/taxonomy.php:139
+#: /home/abelass/www/3c/wp-content/themes/3C/search_or.php:64
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: /home/abelass/www/3c/wp-content/themes/3C/taxonomy.php:126
 msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/searchform.php:15
-#: /home/abelass/www/3c/wp-content/themes/3C/searchform_spec.php:64
+#: /home/abelass/www/3c/wp-content/themes/3C/searchform.php:16
 msgid "Choisir categorie"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/searchform.php:16
-#: /home/abelass/www/3c/wp-content/themes/3C/searchform_spec.php:87
+#: /home/abelass/www/3c/wp-content/themes/3C/searchform.php:17
 msgid "Voir"
 msgstr ""
 
@@ -36,241 +44,241 @@ msgstr ""
 msgid "Numbers regenerated."
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:42
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:67
 msgid "Primary Menu"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:43
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:68
 msgid "Footer Menu"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:79
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:106
 msgid "entreprises"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:80
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:107
 msgid "entreprise"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:81
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:108
 msgid "Companies"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:82
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:109
 msgid "Add company"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:83
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:110
 msgid "Add A New Company"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:84
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:111
 msgid "Edit Company Profile"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:85
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:112
 msgid "Edit Company"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:86
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:113
 msgid "New Company"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:87
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:88
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:114
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:115
 msgid "Preview Company"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:89
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:116
 msgid "Search Company"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:90
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:117
 msgid "Company Not Found"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:91
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:118
 msgid "Company Not Found TO TRASH"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:92
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:119
 msgid "Parent Company"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:230
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:782
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:257
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:809
 msgid "Information additionnel"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:368
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:718
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:395
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:745
 msgid "fonction"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:369
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:740
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:396
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:767
 msgid "formation"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:370
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:762
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:397
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:789
 msgid "niveau_experience"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:371
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:403
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:398
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:430
 msgid "Company type"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:372
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:399
 msgid "Company category"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:422
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:423
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:449
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:450
 msgid "Select type"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:551
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:586
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:621
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:578
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:613
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:648
 msgid "Users"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:673
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:700
 msgid "site_web"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:674
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:701
 msgid "facebook"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:675
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:702
 msgid "twitter"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:676
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:703
 msgid "google_plus"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:677
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:704
 msgid "Skype"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:678
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:705
 msgid "jabber_google"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:678
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:705
 msgid "Google Talk"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:703
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:730
 msgid "Informations Professionnelles"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:708
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:735
 msgid "Choisir Fonction"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:715
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:742
 msgid "Aucune Fonction"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:724
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:751
 msgid "Aucune fonction disponible"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:730
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:757
 msgid "Choisir Formation"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:737
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:764
 msgid "Aucune Formation"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:746
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:773
 msgid "Aucune formation disponible"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:752
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:779
 msgid "Choisir experience"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:759
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:786
 msgid "Aucune experience"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:768
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:795
 msgid "Aucune experience disponible"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:774
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:801
 msgid "annnee_experience_comm_corp"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:787
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:814
 msgid "adresse_prive"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:794
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:821
 msgid "numero"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:801
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:828
 msgid "code_postal"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:808
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:835
 msgid "ville"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:815
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:842
 msgid "telephone"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:822
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:849
 msgid "fax"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:843
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:870
 msgid "date_naissance"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:850
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:877
 msgid "lang"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:859
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:886
 msgid "Preview profile"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:1032
+#: /home/abelass/www/3c/wp-content/themes/3C/functions.php:1073
 msgid "Save Changes"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/author.php:84
+#: /home/abelass/www/3c/wp-content/themes/3C/author.php:90
 msgid "Choisir Membre"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/author.php:87
+#: /home/abelass/www/3c/wp-content/themes/3C/author.php:93
 msgid "Voir la Fiche"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/author.php:120
+#: /home/abelass/www/3c/wp-content/themes/3C/author.php:126
 msgid "Profile"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/author.php:121
+#: /home/abelass/www/3c/wp-content/themes/3C/author.php:127
 msgid "Coordon&eacute;es"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/author.php:161
+#: /home/abelass/www/3c/wp-content/themes/3C/author.php:168
 msgid "Les Entreprises"
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/author.php:236
-msgid "Access non authorise, devenez membre"
+#: /home/abelass/www/3c/wp-content/themes/3C/author.php:239
+msgid "Access non authorise - devenez membre"
 msgstr ""
 
 #: /home/abelass/www/3c/wp-content/themes/3C/single-entreprise.php:41
@@ -307,8 +315,8 @@ msgstr ""
 msgid "Membre de "
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/single-entreprise.php:116
-#: /home/abelass/www/3c/wp-content/themes/3C/single-entreprise.php:119
+#: /home/abelass/www/3c/wp-content/themes/3C/single-entreprise.php:118
+#: /home/abelass/www/3c/wp-content/themes/3C/single-entreprise.php:121
 #: /home/abelass/www/3c/wp-content/themes/3C/content-entreprise.php:102
 #: /home/abelass/www/3c/wp-content/themes/3C/content-entreprise.php:105
 #: /home/abelass/www/3c/wp-content/themes/3C/entreprise_nu.php:96
@@ -316,7 +324,7 @@ msgstr ""
 msgid ", "
 msgstr ""
 
-#: /home/abelass/www/3c/wp-content/themes/3C/single-entreprise.php:122
+#: /home/abelass/www/3c/wp-content/themes/3C/single-entreprise.php:124
 #: /home/abelass/www/3c/wp-content/themes/3C/content-entreprise.php:108
 #: /home/abelass/www/3c/wp-content/themes/3C/entreprise_nu.php:102
 msgid "Edit"
@@ -343,15 +351,6 @@ msgstr ""
 
 #: /home/abelass/www/3c/wp-content/themes/3C/entreprise_nu.php:65
 msgid "Membre de"
-msgstr ""
-
-#: /home/abelass/www/3c/wp-content/themes/3C/search.php:34
-#, php-format
-msgid "Search Results for: %s"
-msgstr ""
-
-#: /home/abelass/www/3c/wp-content/themes/3C/search.php:66
-msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
 msgstr ""
 
 #: /home/abelass/www/3c/wp-content/themes/3C/epanel/core_functions.php:347

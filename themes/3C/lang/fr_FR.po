@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-19 12:26+0100\n"
-"PO-Revision-Date: 2012-09-19 15:16+0100\n"
+"POT-Creation-Date: 2012-11-07 11:11+0100\n"
+"PO-Revision-Date: 2012-11-07 11:11+0100\n"
 "Last-Translator: Rainer <websolutions@mychacra.net>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -15,21 +15,29 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../taxonomy.php:135
+#: ../search_or.php:32
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: ../search_or.php:60
+#: ../taxonomy.php:122
 msgid "Nothing Found"
 msgstr "Rien trouvé"
 
-#: ../taxonomy.php:139
+#: ../search_or.php:64
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Pas de résultat"
+
+#: ../taxonomy.php:126
 msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
 msgstr "Désolé, cette requête ne donne pas de résultat"
 
-#: ../searchform.php:15
-#: ../searchform_spec.php:64
+#: ../searchform.php:16
 msgid "Choisir categorie"
 msgstr "Choisir catégorie..."
 
-#: ../searchform.php:16
-#: ../searchform_spec.php:87
+#: ../searchform.php:17
 msgid "Voir"
 msgstr "Voir"
 
@@ -37,241 +45,241 @@ msgstr "Voir"
 msgid "Numbers regenerated."
 msgstr ""
 
-#: ../functions.php:42
+#: ../functions.php:67
 msgid "Primary Menu"
 msgstr ""
 
-#: ../functions.php:43
+#: ../functions.php:68
 msgid "Footer Menu"
 msgstr ""
 
-#: ../functions.php:79
+#: ../functions.php:106
 msgid "entreprises"
 msgstr "Entreprises"
 
-#: ../functions.php:80
+#: ../functions.php:107
 msgid "entreprise"
 msgstr "Entreprise"
 
-#: ../functions.php:81
+#: ../functions.php:108
 msgid "Companies"
 msgstr "Entreprises"
 
-#: ../functions.php:82
+#: ../functions.php:109
 msgid "Add company"
 msgstr "Ajouter entreprise"
 
-#: ../functions.php:83
+#: ../functions.php:110
 msgid "Add A New Company"
 msgstr "Ajouter une nouvelle entreprise"
 
-#: ../functions.php:84
+#: ../functions.php:111
 msgid "Edit Company Profile"
 msgstr "Éditer profile entreprise"
 
-#: ../functions.php:85
+#: ../functions.php:112
 msgid "Edit Company"
 msgstr "Éditer entreprise"
 
-#: ../functions.php:86
+#: ../functions.php:113
 msgid "New Company"
 msgstr "Nouvelle entreprise"
 
-#: ../functions.php:87
-#: ../functions.php:88
+#: ../functions.php:114
+#: ../functions.php:115
 msgid "Preview Company"
 msgstr "Prévisualisation entreprise"
 
-#: ../functions.php:89
+#: ../functions.php:116
 msgid "Search Company"
 msgstr "Recherche Entreprise"
 
-#: ../functions.php:90
+#: ../functions.php:117
 msgid "Company Not Found"
 msgstr "Entreprise pas trouvé"
 
-#: ../functions.php:91
+#: ../functions.php:118
 msgid "Company Not Found TO TRASH"
 msgstr "Entreprise pas trouvé dans la poubelle"
 
-#: ../functions.php:92
+#: ../functions.php:119
 msgid "Parent Company"
 msgstr "Entreprise parente"
 
-#: ../functions.php:230
-#: ../functions.php:782
+#: ../functions.php:257
+#: ../functions.php:809
 msgid "Information additionnel"
 msgstr "Informations additionnelles"
 
-#: ../functions.php:368
-#: ../functions.php:718
+#: ../functions.php:395
+#: ../functions.php:745
 msgid "fonction"
 msgstr "Fonction"
 
-#: ../functions.php:369
-#: ../functions.php:740
+#: ../functions.php:396
+#: ../functions.php:767
 msgid "formation"
 msgstr "Formation"
 
-#: ../functions.php:370
-#: ../functions.php:762
+#: ../functions.php:397
+#: ../functions.php:789
 msgid "niveau_experience"
 msgstr "Niveau Expérience"
 
-#: ../functions.php:371
-#: ../functions.php:403
+#: ../functions.php:398
+#: ../functions.php:430
 msgid "Company type"
 msgstr "Type d'entreprise"
 
-#: ../functions.php:372
+#: ../functions.php:399
 msgid "Company category"
 msgstr "Catégorie d'entreprise"
 
-#: ../functions.php:422
-#: ../functions.php:423
+#: ../functions.php:449
+#: ../functions.php:450
 msgid "Select type"
 msgstr "Choisir le type"
 
-#: ../functions.php:551
-#: ../functions.php:586
-#: ../functions.php:621
+#: ../functions.php:578
+#: ../functions.php:613
+#: ../functions.php:648
 msgid "Users"
 msgstr "Utilisateurs"
 
-#: ../functions.php:673
+#: ../functions.php:700
 msgid "site_web"
 msgstr "Site personnel"
 
-#: ../functions.php:674
+#: ../functions.php:701
 msgid "facebook"
 msgstr "Facebook"
 
-#: ../functions.php:675
+#: ../functions.php:702
 msgid "twitter"
 msgstr "Twitter"
 
-#: ../functions.php:676
+#: ../functions.php:703
 msgid "google_plus"
 msgstr "Google+"
 
-#: ../functions.php:677
+#: ../functions.php:704
 msgid "Skype"
 msgstr "Skype"
 
-#: ../functions.php:678
+#: ../functions.php:705
 msgid "jabber_google"
 msgstr "Jabber/Google Talk"
 
-#: ../functions.php:678
+#: ../functions.php:705
 msgid "Google Talk"
 msgstr ""
 
-#: ../functions.php:703
+#: ../functions.php:730
 msgid "Informations Professionnelles"
 msgstr "Informations Professionnelles"
 
-#: ../functions.php:708
+#: ../functions.php:735
 msgid "Choisir Fonction"
 msgstr "Choisir Fonction"
 
-#: ../functions.php:715
+#: ../functions.php:742
 msgid "Aucune Fonction"
 msgstr "Aucune Fonction"
 
-#: ../functions.php:724
+#: ../functions.php:751
 msgid "Aucune fonction disponible"
 msgstr "Aucune fonction disponible"
 
-#: ../functions.php:730
+#: ../functions.php:757
 msgid "Choisir Formation"
 msgstr "Choisir Formation"
 
-#: ../functions.php:737
+#: ../functions.php:764
 msgid "Aucune Formation"
 msgstr "Aucune Formation"
 
-#: ../functions.php:746
+#: ../functions.php:773
 msgid "Aucune formation disponible"
 msgstr "Aucune formation disponible"
 
-#: ../functions.php:752
+#: ../functions.php:779
 msgid "Choisir experience"
 msgstr "Choisir Expérience"
 
-#: ../functions.php:759
+#: ../functions.php:786
 msgid "Aucune experience"
 msgstr "Aucune expérience"
 
-#: ../functions.php:768
+#: ../functions.php:795
 msgid "Aucune experience disponible"
 msgstr "Aucune experience disponible"
 
-#: ../functions.php:774
+#: ../functions.php:801
 msgid "annnee_experience_comm_corp"
 msgstr "Année d'expérience en communication corporative"
 
-#: ../functions.php:787
+#: ../functions.php:814
 msgid "adresse_prive"
 msgstr "Adresse privé"
 
-#: ../functions.php:794
+#: ../functions.php:821
 msgid "numero"
 msgstr "Numéro"
 
-#: ../functions.php:801
+#: ../functions.php:828
 msgid "code_postal"
 msgstr "Code postal"
 
-#: ../functions.php:808
+#: ../functions.php:835
 msgid "ville"
 msgstr "Ville"
 
-#: ../functions.php:815
+#: ../functions.php:842
 msgid "telephone"
 msgstr "Téléphone"
 
-#: ../functions.php:822
+#: ../functions.php:849
 msgid "fax"
 msgstr "Fax"
 
-#: ../functions.php:843
+#: ../functions.php:870
 msgid "date_naissance"
 msgstr "Date de naissance"
 
-#: ../functions.php:850
+#: ../functions.php:877
 msgid "lang"
 msgstr "Langue"
 
-#: ../functions.php:859
+#: ../functions.php:886
 msgid "Preview profile"
 msgstr "Prévisualisation profile"
 
-#: ../functions.php:1032
+#: ../functions.php:1073
 msgid "Save Changes"
 msgstr "Enregistrer changements"
 
-#: ../author.php:84
+#: ../author.php:90
 msgid "Choisir Membre"
 msgstr "Choisir un membre"
 
-#: ../author.php:87
+#: ../author.php:93
 msgid "Voir la Fiche"
 msgstr "Voir la fiche"
 
-#: ../author.php:120
+#: ../author.php:126
 msgid "Profile"
 msgstr "Profile"
 
-#: ../author.php:121
+#: ../author.php:127
 msgid "Coordon&eacute;es"
 msgstr "Coordon&eacute;es"
 
-#: ../author.php:147
+#: ../author.php:168
 msgid "Les Entreprises"
 msgstr "Les Entreprises"
 
-#: ../author.php:219
-msgid "Access non authorise, devenez membre"
+#: ../author.php:239
+msgid "Access non authorise - devenez membre"
 msgstr "L'usage de l'annuaire est réservé exclusivement pour nos membres. Nous vous invitons à vous inscrire <a href=\"http://3c.spade.be/fr/contact-us/inscription-membres\">ici</a> . Merci pour votre compréhension."
 
 #: ../single-entreprise.php:41
@@ -308,8 +316,8 @@ msgstr ""
 msgid "Membre de "
 msgstr "Membres de "
 
-#: ../single-entreprise.php:116
-#: ../single-entreprise.php:119
+#: ../single-entreprise.php:118
+#: ../single-entreprise.php:121
 #: ../content-entreprise.php:102
 #: ../content-entreprise.php:105
 #: ../entreprise_nu.php:96
@@ -317,7 +325,7 @@ msgstr "Membres de "
 msgid ", "
 msgstr ""
 
-#: ../single-entreprise.php:122
+#: ../single-entreprise.php:124
 #: ../content-entreprise.php:108
 #: ../entreprise_nu.php:102
 msgid "Edit"
@@ -345,15 +353,6 @@ msgstr "Nouveau commentaires <span class=\"meta-nav\">&rarr;</span>"
 #: ../entreprise_nu.php:65
 msgid "Membre de"
 msgstr "Membres de"
-
-#: ../search.php:34
-#, php-format
-msgid "Search Results for: %s"
-msgstr "Résultats de recherche pour : %s"
-
-#: ../search.php:66
-msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
-msgstr "Pas de résultat"
 
 #: ../epanel/core_functions.php:347
 msgid "This will return all of the settings throughout the options page to their default values. <strong>Are you sure you want to do this?"
