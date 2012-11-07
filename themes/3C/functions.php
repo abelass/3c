@@ -1021,7 +1021,7 @@ add_shortcode( 'access_entreprise_full', 'access_check_shortcode' );
 
 function access_check_shortcode( $attr, $content = null ) {
 
-	extract( shortcode_atts( array( 'capability' => 'access_entreprise_full' ), $attr ) );
+	extract( shortcode_atts( array( 'capability' => 'access_entreprise_full',  'capability' => 'member-full-access-associated'), $attr ) );
 
 	if ( current_user_can( $capability ) && !is_feed() )
 		return 'true';
