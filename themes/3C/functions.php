@@ -1155,9 +1155,27 @@ if ( function_exists( 'add_theme_support' ) ) {
 add_filter('posts_where', 'title_like_posts_where', 10, 2 );
 
 function title_like_posts_where( $where, &$wp_query ) {
+
+
     global $wpdb;
     if ( $post_title_like = $wp_query->get( 'post_title_like' ) ) {
         $where .= ' AND ' . $wpdb->posts . '.post_title LIKE \'%' . esc_sql( like_escape( $post_title_like ) ) . '%\'';
     }
     return $where;
+}
+
+/******************change the HOWDY *************************
+ * http://184.172.186.91/~icode/change-the-howdy-wp-admin-bar
+ */
+add_filter('gettext', 'change_howdy', 10, 3);
+
+function change_howdy($translated, $text, $domain) {
+
+    if (!is_admin() || 'default' != $domain)
+        return str_replace('Howdy,', '' ,  $translated);
+
+    if (false !== strpos($translated, 'Howdy'))
+        return str_replace('Howdy', 'Welcome to Arrowhead Press', $translated);
+
+    return $translated;
 }
