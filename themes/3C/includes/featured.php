@@ -46,7 +46,7 @@
 						print_thumbnail($thumb, $thumbnail["use_timthumb"], $post_title, $width, $height, 'thumb'); ?>
 					</a>
 					<div class="description">
-						<h2><a href="<?php the_permalink();?>"><?php truncate_title(27); ?></a></h2>
+						<h2><a href="<?php the_permalink();?>"><?php truncate_title(600); ?></a></h2>
 						
 						<?php $tagline = get_post_meta($post->ID, 'Tagline', true);
 						if ($tagline != '' ) { ?>
