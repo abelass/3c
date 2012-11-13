@@ -61,7 +61,13 @@ Template Name: Author Page
 			}
 	    	    
 	    $abonnes=array_merge( $id_abonne_payants,$id_abonne_gratuits,$id_admin_prive);
-	    $id_abonnes=implode($abonnes,',');   
+	    //$id_abonnes=implode($abonnes,',');  
+	    
+
+	   $users = get_users( array( 'include' =>$abonnes, 'fields' =>'all_with_meta','orderby'=>'lastname' ) );
+       // merci à http://wordpress.stackexchange.com/questions/29179/order-by-first-name
+       usort($users, create_function('$a, $b', 'if($a->user_lastname == $b->user_lastname) { return 0;} return ($a->user_lastname > $b->user_lastname) ? 1 : -1;'));
+      //echo serialize($users);
 
 	
     ?>
@@ -72,7 +78,6 @@ Template Name: Author Page
 				<h1 class="entry-title">
 						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); 
 						the_title() ;
-
 						endwhile; endif; ?>
 				</h1>	
 				<?php
@@ -86,12 +91,17 @@ Template Name: Author Page
     <?php } 
     ?>
         <div class="side-by-side clearfix">
-    <form method="get" id="searchform"  action="<?php echo home_url('/'.qtrans_getLanguage().'/'); ?>">
-		<?php wp_dropdown_users(array('show_option_none'=>__('Choisir Membre','3C'),'name'=>'author','class'=>'author chzn-select-deselect','include'=>$id_abonnes,'style'=>'width:350px'));  ?>
 
-
-		<input type="submit" id="searchsubmit_view" value="<?php _e('Voir la Fiche','3C') ?>" />
-	</form>
+	<form method="get" id="searchform"  action="<?php echo home_url('/'.qtrans_getLanguage().'/'); ?>">
+<select name="author" id="author" class="author chzn-select-deselect">
+    <option value="-1"><?php _e('Choisir Membre','3C') ?></option>
+    <?php 
+    foreach ($users as $user) {
+        echo '<option value="'.$user->ID.'">'.$user->user_lastname.' '.$user->user_firstname.'</option>';
+    }
+    ?>
+        <input type="submit" id="searchsubmit_view" value="<?php _e('Voir la Fiche','3C') ?>" />
+    </form>
 	</div>
 	 <script type="text/javascript"> 
 	 $(".chzn-select-deselect").chosen({allow_single_deselect:true});
@@ -183,7 +193,7 @@ Template Name: Author Page
 						}
 					}
 		}
-		else{
+		/*else{
 	
 					echo '<ul  class="liste authors">';
 					$args = array(
@@ -222,7 +232,7 @@ Template Name: Author Page
 							'.$list.'</li>';
 						}
 					echo '</ul>';
-				}
+				}*/
 				
 
 					}
