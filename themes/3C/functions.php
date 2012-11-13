@@ -1179,3 +1179,4 @@ function change_howdy($translated, $text, $domain) {
 
     return $translated;
 }
+

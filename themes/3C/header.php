@@ -54,10 +54,28 @@
 				</div>
 								
 			<!-- End Searchbox -->
-			
+<div class="tools">
+    <?php global $current_user;
+
+                    if ( is_user_logged_in() ) {                                             
+                        echo '<a class="linklogin" href="'.wp_logout_url( home_url() ).'" title="Log Out">Log-Out</a>';                        
+
+                    } else { ?>
+                        <a class="linklogin" href="http://3c.spade.be/wp-login.php">Log In</a>
+                    <?php } ?>
+
+
 			<!-- Language QTranslate -->
-<div id="language">
-<?php echo qtrans_generateLanguageSelectCode('image'); ?>
+
+			
+    <div id="language">
+    <?php
+    
+    
+     echo qtrans_generateLanguageSelectCode('image'); 
+     
+     ?>
+    </div>
 </div>
 <!-- End Language Box-->
 
