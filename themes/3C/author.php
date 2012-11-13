@@ -43,8 +43,8 @@ Template Name: Author Page
 	    //$abonnes='';
 	    $abonne_gratuits = get_users( array( 'role' => 'member-limited-access', 'fields' => $author_fields ) );
 	    $abonne_payants = get_users( array( 'role' => 'member-full-access', 'fields' => $author_fields ) );
-        $admin_prive = get_users( array( 'role' => 'admin_prive', 'fields' => $author_fields ) );
-	    
+        $member_full_access_associated = get_users( array( 'role' => 'member-full-access-associated', 'fields' => $author_fields ) );
+        $admin_prive = get_users( array( 'role' => 'admin_prive', 'fields' => $author_fields ) );	    
 	    $id_abonne_gratuits=array();
 	    foreach( $abonne_gratuits AS $id_g){
 			$id_abonne_gratuits[] = $id_g->ID;
@@ -59,8 +59,13 @@ Template Name: Author Page
 	    foreach( $admin_prive AS $id_g){
 			$id_admin_prive [] = $id_g->ID;
 			}
-	    	    
-	    $abonnes=array_merge( $id_abonne_payants,$id_abonne_gratuits,$id_admin_prive);
+        
+        $id_member_full_access_associated =array();
+        foreach( $member_full_access_associated  AS $id_g){
+            $id_admin_prive [] = $id_g->ID;
+            }
+        
+	    $abonnes=array_merge( $id_abonne_payants,$id_abonne_gratuits,$id_admin_prive,$id_member_full_access_associated);
 	    //$id_abonnes=implode($abonnes,',');  
 	    
 
