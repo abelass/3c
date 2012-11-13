@@ -1032,7 +1032,7 @@ function access_check_shortcode( $attr, $content = null ) {
 
    $current_user = wp_get_current_user();
    
-   $aut=array('member-full-access-associated','member-full-access','administrator');
+   $aut=array('member-full-access-associated','member-full-access','administrator','admin_prive');
    
    $cap=array_flip($current_user->caps);
    
