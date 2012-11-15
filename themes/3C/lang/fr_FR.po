@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-07 11:11+0100\n"
-"PO-Revision-Date: 2012-11-15 05:28+0100\n"
-"Last-Translator: Francois Lamotte <paperjam@gmail.com>\n"
+"POT-Creation-Date: 2012-11-15 08:51+0100\n"
+"PO-Revision-Date: 2012-11-15 09:01+0100\n"
+"Last-Translator: Rainer <websolutions@mychacra.net>\n"
 "Language-Team: \n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;_\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
@@ -21,7 +21,7 @@ msgid "Search Results for: %s"
 msgstr "Résultats de recherche pour : %s"
 
 #: ../search_or.php:60
-#: ../taxonomy.php:122
+#: ../taxonomy.php:125
 msgid "Nothing Found"
 msgstr "Rien trouvé"
 
@@ -29,9 +29,14 @@ msgstr "Rien trouvé"
 msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
 msgstr "Pas de résultat"
 
-#: ../taxonomy.php:126
+#: ../taxonomy.php:129
 msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
 msgstr "Désolé, cette requête ne donne pas de résultat"
+
+#: ../searchform.php:11
+#: ../searchform.php:12
+msgid "Search"
+msgstr "Recherche"
 
 #: ../searchform.php:16
 msgid "Choisir categorie"
@@ -43,6 +48,26 @@ msgstr "Voir"
 
 #: ../page-contact.php:25
 msgid "Numbers regenerated."
+msgstr ""
+
+#: ../page-contact.php:100
+msgid "Name"
+msgstr ""
+
+#: ../page-contact.php:104
+msgid "Email Address"
+msgstr "Adresse Email"
+
+#: ../page-contact.php:108
+msgid "Subject"
+msgstr ""
+
+#: ../page-contact.php:131
+msgid "Reset"
+msgstr ""
+
+#: ../page-contact.php:132
+msgid "Submit"
 msgstr ""
 
 #: ../functions.php:67
@@ -258,57 +283,56 @@ msgstr "Prévisualisation profile"
 msgid "Save Changes"
 msgstr "Enregistrer changements"
 
-#: ../author.php:90
+#: ../author.php:102
 msgid "Choisir Membre"
 msgstr "Choisir un membre"
 
-#: ../author.php:93
+#: ../author.php:108
 msgid "Voir la Fiche"
 msgstr "Voir la fiche"
 
-#: ../author.php:126
+#: ../author.php:141
 msgid "Profil"
 msgstr "Profil"
 
-#: ../author.php:127
+#: ../author.php:142
 msgid "Coordonn&eacute;es"
 msgstr "Coordonn&eacute;es"
 
-#: ../author.php:168
+#: ../author.php:183
 msgid "Les Entreprises"
 msgstr "Les Entreprises"
 
-#: ../author.php:239
+#: ../author.php:254
 msgid "Access non authorise - devenez membre"
 msgstr "L'usage de l'annuaire est réservé exclusivement pour nos membres. Nous vous invitons à vous inscrire <a href=\"http://3c.spade.be/fr/contact-us/inscription-membres\">ici</a> . Merci pour votre compréhension."
 
+#: ../header.php:52
+msgid "search this site..."
+msgstr "recherche  ..."
+
 #: ../single-entreprise.php:41
 #: ../content-entreprise.php:34
-#: ../entreprise_nu.php:28
 msgid "Contact"
 msgstr "Contact"
 
 #: ../single-entreprise.php:59
 #: ../content-entreprise.php:48
-#: ../entreprise_nu.php:42
 msgid "Websites"
 msgstr "Site web"
 
 #: ../single-entreprise.php:61
 #: ../content-entreprise.php:50
-#: ../entreprise_nu.php:44
 msgid "Site Internet"
 msgstr "Site Internet"
 
 #: ../single-entreprise.php:61
 #: ../content-entreprise.php:50
-#: ../entreprise_nu.php:44
 msgid "Twitter"
 msgstr ""
 
 #: ../single-entreprise.php:75
 #: ../content-entreprise.php:60
-#: ../entreprise_nu.php:54
 msgid "Pages:"
 msgstr ""
 
@@ -320,14 +344,11 @@ msgstr "Membres de "
 #: ../single-entreprise.php:121
 #: ../content-entreprise.php:102
 #: ../content-entreprise.php:105
-#: ../entreprise_nu.php:96
-#: ../entreprise_nu.php:99
 msgid ", "
 msgstr ""
 
 #: ../single-entreprise.php:124
 #: ../content-entreprise.php:108
-#: ../entreprise_nu.php:102
 msgid "Edit"
 msgstr "Editer"
 
@@ -336,7 +357,6 @@ msgid "Membres"
 msgstr ""
 
 #: ../content-entreprise.php:85
-#: ../entreprise_nu.php:79
 msgid "Fonction"
 msgstr "Fonction"
 
@@ -353,6 +373,10 @@ msgstr "Nouveau commentaires <span class=\"meta-nav\">&rarr;</span>"
 #: ../entreprise_nu.php:65
 msgid "Membre de"
 msgstr "Membres de"
+
+#: ../epanel/core_functions.php:196
+msgid "Upload Image"
+msgstr ""
 
 #: ../epanel/core_functions.php:347
 msgid "This will return all of the settings throughout the options page to their default values. <strong>Are you sure you want to do this?"
@@ -395,9 +419,6 @@ msgstr ""
 #~ msgid "Niveau Experience"
 #~ msgstr "Niveau Expérience"
 
-#~ msgid "Search"
-#~ msgstr "Recherche"
-
 #~ msgid "Ajouter Entreprise"
 #~ msgstr "Ajouter Entreprise"
 
@@ -430,9 +451,6 @@ msgstr ""
 
 #~ msgid "Annuaire"
 #~ msgstr "Annuaire"
-
-#~ msgid "Adresse"
-#~ msgstr "Adresse"
 
 #~ msgid "Code postal"
 #~ msgstr "Code postal"

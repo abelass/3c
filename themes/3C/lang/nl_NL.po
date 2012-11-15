@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-07 11:09+0100\n"
-"PO-Revision-Date: 2012-11-07 11:09+0100\n"
+"POT-Creation-Date: 2012-11-15 08:54+0100\n"
+"PO-Revision-Date: 2012-11-15 08:54+0100\n"
 "Last-Translator: Rainer <websolutions@mychacra.net>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -23,7 +23,7 @@ msgid "Search Results for: %s"
 msgstr "Zoekresultaten voor: %s"
 
 #: ../search_or.php:60
-#: ../taxonomy.php:122
+#: ../taxonomy.php:125
 msgid "Nothing Found"
 msgstr "Niets gevonden"
 
@@ -31,7 +31,7 @@ msgstr "Niets gevonden"
 msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
 msgstr "Sorry, maar niets gevonden die aan uw zoekcriteria. Probeer het opnieuw met een aantal verschillende zoekwoorden."
 
-#: ../taxonomy.php:126
+#: ../taxonomy.php:129
 msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
 msgstr "Excuses, maar er werden geen resultaten gevonden voor de gevraagde archief. Misschien zal zoeken helpen vinden van een gerelateerde post."
 
@@ -285,27 +285,27 @@ msgstr "Voorbeeld profiel"
 msgid "Save Changes"
 msgstr "Wijzigingen opslaan"
 
-#: ../author.php:90
+#: ../author.php:102
 msgid "Choisir Membre"
 msgstr "Kies een lid"
 
-#: ../author.php:93
+#: ../author.php:108
 msgid "Voir la Fiche"
 msgstr "Bekijk de details"
 
-#: ../author.php:126
+#: ../author.php:141
 msgid "Profil"
 msgstr "Profiel"
 
-#: ../author.php:127
+#: ../author.php:142
 msgid "Coordonn&eacute;es"
 msgstr "Coördinaten"
 
-#: ../author.php:168
+#: ../author.php:183
 msgid "Les Entreprises"
 msgstr "Bedrijf"
 
-#: ../author.php:239
+#: ../author.php:254
 msgid "Access non authorise - devenez membre"
 msgstr "Het gebruik van de directory is uitsluidend voorbehouden aan onze leden. Wij nodigen u uit om  <a href=\"http://3c.spade.be/contact-us/inscription-membres\">hier registreren</a>. Wij danken u voor begrip"
 
@@ -315,31 +315,26 @@ msgstr "zoek op deze site ..."
 
 #: ../single-entreprise.php:41
 #: ../content-entreprise.php:34
-#: ../entreprise_nu.php:28
 msgid "Contact"
 msgstr "Contact"
 
 #: ../single-entreprise.php:59
 #: ../content-entreprise.php:48
-#: ../entreprise_nu.php:42
 msgid "Websites"
 msgstr "Web sites"
 
 #: ../single-entreprise.php:61
 #: ../content-entreprise.php:50
-#: ../entreprise_nu.php:44
 msgid "Site Internet"
 msgstr "web-Site"
 
 #: ../single-entreprise.php:61
 #: ../content-entreprise.php:50
-#: ../entreprise_nu.php:44
 msgid "Twitter"
 msgstr ""
 
 #: ../single-entreprise.php:75
 #: ../content-entreprise.php:60
-#: ../entreprise_nu.php:54
 msgid "Pages:"
 msgstr "Pagina's:"
 
@@ -351,14 +346,11 @@ msgstr "Lid"
 #: ../single-entreprise.php:121
 #: ../content-entreprise.php:102
 #: ../content-entreprise.php:105
-#: ../entreprise_nu.php:96
-#: ../entreprise_nu.php:99
 msgid ", "
 msgstr ""
 
 #: ../single-entreprise.php:124
 #: ../content-entreprise.php:108
-#: ../entreprise_nu.php:102
 msgid "Edit"
 msgstr "Redigeren"
 
@@ -367,7 +359,6 @@ msgid "Membres"
 msgstr "Lid"
 
 #: ../content-entreprise.php:85
-#: ../entreprise_nu.php:79
 msgid "Fonction"
 msgstr "Functie"
 
