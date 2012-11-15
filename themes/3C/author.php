@@ -138,8 +138,8 @@ Template Name: Author Page
 
         if (do_shortcode('[access_entreprise_full]')){
 			$display=array(
-				__('Profile','3C')=>array('fonction','formation','niveau_experience','date_naissance','lang'),
-				__('Coordon&eacute;es','3C')=>array('ville','telephone','fax','site_web','facebook', 'twitter','google_plus','Skype','jabber_google')
+				__('Profil','3C')=>array('fonction','formation','niveau_experience','date_naissance','lang'),
+				__('Coordonn&eacute;es','3C')=>array('ville','telephone','fax','site_web','facebook', 'twitter','google_plus','Skype','jabber_google')
 				);
 								
 				$fields_convert=array('fonction','formation','niveau_experience');	

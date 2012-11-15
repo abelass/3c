@@ -9,5 +9,3 @@ $type_entreprise='associations_communication';
 
 include(locate_template('category.php'));
 ?>
- 
-

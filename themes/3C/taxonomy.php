@@ -1,5 +1,8 @@
 <?php
 /**
+	*
+ * Template Name: Directory2 Page
+
  * The template for displaying Category Archive pages.
  *
  * @package WordPress

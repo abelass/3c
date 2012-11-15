@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-07 11:19+0100\n"
-"PO-Revision-Date: 2012-11-07 11:19+0100\n"
+"POT-Creation-Date: 2012-11-07 11:09+0100\n"
+"PO-Revision-Date: 2012-11-07 11:09+0100\n"
 "Last-Translator: Rainer <websolutions@mychacra.net>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -294,11 +294,11 @@ msgid "Voir la Fiche"
 msgstr "Bekijk de details"
 
 #: ../author.php:126
-msgid "Profile"
+msgid "Profil"
 msgstr "Profiel"
 
 #: ../author.php:127
-msgid "Coordon&eacute;es"
+msgid "Coordonn&eacute;es"
 msgstr "Coördinaten"
 
 #: ../author.php:168

@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Enseignement Page
+Template Name: Page Enseignement 
 */
 
 get_header(); 

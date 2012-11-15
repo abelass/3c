@@ -37,7 +37,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
 
-body { background: #fff url(images/header_bg.gif) center top repeat-x; text-align: center; line-height: 21px; font-family: "Helvetica", Arial, sans-serif; font-size: 12px; color: #434343; min-height: 25px; }
+body { background: #fff url(images/header_bg.gif) center top repeat-x; text-align: center; line-height: 21px; font-family: "Helvetica", Arial, sans-serif; font-size: 14px; color: #434343; min-height: 25px; }
 
 a { text-decoration: none; color:#505050; }
 a:hover { text-decoration: underline; }
@@ -61,7 +61,7 @@ ins { text-decoration: none; }
 sup, sub { height: 0; line-height: 1; position: relative; vertical-align: baseline; }
 sup { bottom: 0.8em; }
 sub { top: 0.3em; }
-dl { margin: 0 0 1.5em 0; }
+dl { margin: 0 0 0 0; }
 dl dt { font-weight: bold; }
 dd  { margin-left: 1.5em;}
 blockquote  { margin: 1.5em; padding: 1em; color: #666666; background: #e6e6e6; font-style: italic; border: 1px solid #dcdcdc; }
@@ -109,6 +109,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 	#content.pagefull_width, .pagefull_width #content-area { background: none; width: 100%; }
 		#content-area { float: left; width: 621px;}
 			div.entry { padding: 30px 41px 30px 20px; width: 580px; }
+			div.entry:first-child { padding-top: 0px;}
 			#content.pagefull_width div.entry { width: 900px; }
 				div.entry a, div#comment-section a { color: #000000; font-weight: bold; }
 			div.entry.homepage { padding-bottom: 0px; background: none; }	
@@ -415,4 +416,20 @@ input#searchsubmit_view{
 
 /*Rainer*/
 ul.liste li{height:110px;display:block;}
+h2.title-employees{clear:both;}
+
+/* update Spade 25/11/2012 */
+ul.liste{margin-left: 0;}
+ul.liste > li{border-bottom:1px solid #ccc;padding-bottom: 10px;margin-bottom: 20px;}
+ul.liste > li img.avatar{margin-right: 10px;}
+
+.side-by-side{padding: 10px 0;border-bottom:1px solid #ccc;border-top:1px solid #ccc;margin-bottom: 20px;}
+
+.entry dl{margin-bottom: 20px;}
+.entry dl > dt{padding: 10px 0;border-top:1px solid #ccc;margin-top: 10px;}
+.entry dl >dd {margin-left:0;}
+
+.meta_data.left{margin-bottom: 20px;}
+.meta_data.right:after{clear:both;}
+
 h2.title-employees{clear:both;}

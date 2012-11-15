@@ -55,6 +55,14 @@
 								
 			<!-- End Searchbox -->
 <div class="tools">
+<div id="language">
+<?php
+
+
+ echo qtrans_generateLanguageSelectCode('image'); 
+ 
+ ?>
+</div>
     <?php global $current_user;
 
                     if ( is_user_logged_in() ) {                                             
@@ -68,14 +76,7 @@
 			<!-- Language QTranslate -->
 
 			
-    <div id="language">
-    <?php
-    
-    
-     echo qtrans_generateLanguageSelectCode('image'); 
-     
-     ?>
-    </div>
+
 </div>
 <!-- End Language Box-->
 
