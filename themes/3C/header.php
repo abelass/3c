@@ -59,7 +59,7 @@
 <?php
 
 
- echo qtrans_generateLanguageSelectCode('image'); 
+echo qtrans_generateLanguageSelectCode('text');
  
  ?>
 </div>
