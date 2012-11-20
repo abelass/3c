@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-15 08:54+0100\n"
-"PO-Revision-Date: 2012-11-15 08:54+0100\n"
+"POT-Creation-Date: 2012-11-20 17:01+0100\n"
+"PO-Revision-Date: 2012-11-20 17:03+0100\n"
 "Last-Translator: Rainer <websolutions@mychacra.net>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -24,6 +24,7 @@ msgstr "Zoekresultaten voor: %s"
 
 #: ../search_or.php:60
 #: ../taxonomy.php:125
+#: ../category_bp.php:122
 msgid "Nothing Found"
 msgstr "Niets gevonden"
 
@@ -32,6 +33,7 @@ msgid "Sorry, but nothing matched your search criteria. Please try again with so
 msgstr "Sorry, maar niets gevonden die aan uw zoekcriteria. Probeer het opnieuw met een aantal verschillende zoekwoorden."
 
 #: ../taxonomy.php:129
+#: ../category_bp.php:126
 msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
 msgstr "Excuses, maar er werden geen resultaten gevonden voor de gevraagde archief. Misschien zal zoeken helpen vinden van een gerelateerde post."
 
@@ -376,6 +378,16 @@ msgstr ""
 msgid "Membre de"
 msgstr "Lid"
 
+#: ../includes/entry.php:14
+#: ../includes/entry.php:21
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: ../includes/entry.php:29
+msgid "Read More"
+msgstr ""
+
 #: ../epanel/core_functions.php:196
 msgid "Upload Image"
 msgstr ""
@@ -386,7 +398,7 @@ msgstr ""
 
 #: ../epanel/custom_functions.php:301
 msgid "Home"
-msgstr "Befinpagina"
+msgstr "Home"
 
 #: ../epanel/custom_functions.php:666
 msgid "Image doesn't exist"

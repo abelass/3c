@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-15 08:51+0100\n"
-"PO-Revision-Date: 2012-11-15 08:56+0100\n"
+"POT-Creation-Date: 2012-11-20 17:01+0100\n"
+"PO-Revision-Date: 2012-11-20 17:01+0100\n"
 "Last-Translator: Rainer <websolutions@mychacra.net>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -22,6 +22,7 @@ msgstr "Résultats de recherche pour : %s"
 
 #: ../search_or.php:60
 #: ../taxonomy.php:125
+#: ../category_bp.php:122
 msgid "Nothing Found"
 msgstr "Rien trouvé"
 
@@ -30,6 +31,7 @@ msgid "Sorry, but nothing matched your search criteria. Please try again with so
 msgstr "Pas de résultat"
 
 #: ../taxonomy.php:129
+#: ../category_bp.php:126
 msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
 msgstr "Désolé, cette requête ne donne pas de résultat"
 
@@ -373,6 +375,16 @@ msgstr "Nouveau commentaires <span class=\"meta-nav\">&rarr;</span>"
 #: ../entreprise_nu.php:65
 msgid "Membre de"
 msgstr "Membres de"
+
+#: ../includes/entry.php:14
+#: ../includes/entry.php:21
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: ../includes/entry.php:29
+msgid "Read More"
+msgstr ""
 
 #: ../epanel/core_functions.php:196
 msgid "Upload Image"
