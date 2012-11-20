@@ -22,7 +22,8 @@ if ( get_query_var('paged') ) {
 } else {
     $paged = 1;
 }
-$cat_id=get_query_var('categorie_entreprise');
+$cat_id=$_GET['categorie_entreprise'];
+
 if(!$s)$s=$_GET['src'];
 
 
@@ -37,8 +38,6 @@ $args = array(
   'base' => add_query_arg( 'paged', '%#%' ),
 );
 $t='';
-
-
 	
 $args = array(
     'post_title_like' => $s,
@@ -52,9 +51,8 @@ $args = array(
 
 if($term)$args['categorie_entreprise']=$term->slug;
 if($type_entreprise)$args['type_entreprise']=$type_entreprise;
+
 query_posts($args);
-
-
 
 ?>
 
