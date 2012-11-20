@@ -30,7 +30,7 @@ if(!$s)$s=$_GET['src'];
 $term = get_term_by('',$cat_id,'categorie_entreprise'); 
 
 
-$type_entreprise=get_query_var('type_entreprise')?get_query_var('type_entreprise'): $type_entreprise?$type_entreprise:'';
+$type_entreprise=get_query_var('type_entreprise')?get_query_var('type_entreprise'): $type_entreprise?$type_entreprise:'membre_3c';
 
 if($type_entreprise)$q_te=' &type_entreprise='.$type_entreprise;
 $args = array(
