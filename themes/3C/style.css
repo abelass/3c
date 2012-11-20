@@ -87,7 +87,8 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 		#slogan { font-family: font-family: "Helvetica", Arial, sans-serif; color: #505050; font-size: 1.8em; margin: 0; float: left; padding: 16px 0 3px 10px;font-weight: bold;}
 		#header #search-form { float: right; width: 132px; background: url(images/search.gif) no-repeat; height: 33px; margin-top:7px; }
 		#header #searchinput { width: 105px; background: none; border: none; color: #fff;  padding-left: 12px; display: block; margin-top: 6px; }  
-		#header #language{position: absolute;right:0;top:5px;}
+		#header .tools{position: absolute;right:0;top:10px;font-size:11px;line-height: 11px;}
+		#header #language{position: relative;float:right;margin-left: 10px;border-left:1px solid #333;padding-left: 10px;}
 		#header #language ul li{float: left;margin-right: 5px;font-size:11px;}
 		#header #language ul li.active{font-weight: bold;}
 		
