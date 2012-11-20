@@ -5,7 +5,7 @@ Template Name: Member Page
 
 get_header(); 
 
-//$type_entreprise='membre_3c';
+$type_entreprise='membre_3c';
 
-include(locate_template('category.php'));
+include(locate_template('taxanomy.php'));
 ?>
