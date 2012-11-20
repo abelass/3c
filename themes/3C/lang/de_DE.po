@@ -1,0 +1,647 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 3C v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-02 13:26+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ann <anochka1985@gmail.com>\n"
+"Language-Team: Ann <anochka1985@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../page-login.php:41
+#: ../page.php:28
+#: ../page-contact.php:90
+#: ../content-single.php:21
+#: ../page-full.php:34
+#: ../page-gallery.php:44
+msgid "Pages"
+msgstr "Seiten"
+
+#: ../page-login.php:47
+msgid "Username"
+msgstr ""
+
+#: ../page-login.php:48
+msgid "Password"
+msgstr ""
+
+#: ../page-login.php:52
+msgid "Not a member?"
+msgstr ""
+
+#: ../page-login.php:52
+msgid "Register today!"
+msgstr ""
+
+#: ../page-login.php:58
+#: ../page.php:29
+#: ../page-contact.php:139
+#: ../content-single.php:22
+#: ../page-full.php:35
+#: ../page-gallery.php:86
+msgid "Edit this page"
+msgstr "Seite bearbeiten"
+
+#: ../searchform.php:7
+#: ../searchform.php:8
+#: ../searchform_spec.php:4
+#: ../searchform_spec.php:5
+msgid "Search"
+msgstr "Suchen"
+
+#: ../page-contact.php:22
+msgid "Make sure you entered the captcha. "
+msgstr ""
+
+#: ../page-contact.php:26
+msgid "You entered the wrong number in captcha. "
+msgstr ""
+
+#: ../page-contact.php:35
+msgid "Make sure you fill all fields. "
+msgstr ""
+
+#: ../page-contact.php:40
+msgid "Invalid Email. "
+msgstr ""
+
+#: ../page-contact.php:61
+msgid "Thanks for contacting us"
+msgstr ""
+
+#: ../page-contact.php:100
+msgid "Name"
+msgstr "Name"
+
+#: ../page-contact.php:104
+msgid "Email Address"
+msgstr ""
+
+#: ../page-contact.php:108
+msgid "Subject"
+msgstr ""
+
+#: ../page-contact.php:115
+msgid "Captcha: "
+msgstr ""
+
+#: ../page-contact.php:131
+#, fuzzy
+msgid "Reset"
+msgstr "Letztes"
+
+#: ../page-contact.php:132
+#, fuzzy
+msgid "Submit"
+msgstr "Kommentar absenden"
+
+#: ../functions.php:808
+#: ../author.php:102
+#, fuzzy, php-format
+msgid "Permalink to %s"
+msgstr "Permanenter Link zu %s "
+
+#: ../page-gallery.php:68
+msgid "Zoom in"
+msgstr ""
+
+#: ../page-gallery.php:69
+msgid "Read more"
+msgstr "Mehr"
+
+#: ../header.php:50
+msgid "search this site..."
+msgstr "suchen..."
+
+#: ../header.php:74
+msgid "Home"
+msgstr "Startseite"
+
+#: ../comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Uploaden Sie bitte diese Seite direkt nicht. Danke!"
+
+#: ../comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dieser Artikel ist passwortgeschützt. Geben Sie Ihr Passwort ein um die Kommentare anzuzeigen."
+
+#: ../comments.php:17
+msgid "No comments"
+msgstr "Keine Kommentare"
+
+#: ../comments.php:17
+msgid "One comment"
+msgstr "1 Kommentar"
+
+#: ../comments.php:17
+#: ../page-blog.php:63
+msgid "comments"
+msgstr "Kommentare"
+
+#: ../comments.php:41
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacks/Pingbacks"
+
+#: ../comments.php:54
+msgid "Comments are closed."
+msgstr "Keine Kommentare mehr m&ouml;glich."
+
+#: ../comments.php:59
+msgid "Submit Comment"
+msgstr "Kommentar absenden"
+
+#: ../comments.php:59
+msgid "Leave a Reply"
+msgstr "Einen Kommentar schreiben"
+
+#: ../comments.php:59
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Einen Kommentar schreiben zu %s"
+
+#: ../page-blog.php:63
+msgid "Posted"
+msgstr "Gepostet"
+
+#: ../page-blog.php:63
+msgid "by"
+msgstr "von"
+
+#: ../page-blog.php:63
+msgid "on"
+msgstr "am"
+
+#: ../page-blog.php:63
+msgid "in"
+msgstr "in"
+
+#: ../page-blog.php:63
+msgid "0 comments"
+msgstr "Keine Kommentare"
+
+#: ../page-blog.php:63
+msgid "1 comment"
+msgstr "1 Kommentar"
+
+#: ../page-blog.php:83
+#, fuzzy
+msgid "read more"
+msgstr "Mehr"
+
+#: ../footer.php:16
+msgid "Designed by "
+msgstr "Designed by"
+
+#: ../page-sitemap.php:50
+msgid "Categories"
+msgstr ""
+
+#: ../page-sitemap.php:55
+#, fuzzy
+msgid "Tags"
+msgstr "Seiten"
+
+#: ../page-sitemap.php:67
+msgid "Authors"
+msgstr ""
+
+#: ../page-search.php:45
+#, fuzzy
+msgid "search this website"
+msgstr "suchen..."
+
+#: ../page-search.php:50
+#, fuzzy
+msgid "Posts"
+msgstr "Gepostet"
+
+#: ../page-search.php:54
+msgid "Select a month"
+msgstr ""
+
+#: ../includes/featured.php:3
+msgid "Previous"
+msgstr "Zurück"
+
+#: ../includes/featured.php:4
+msgid "Next"
+msgstr "Weiter"
+
+#: ../includes/featured.php:57
+#: ../includes/entry.php:49
+msgid "Read More"
+msgstr "Mehr"
+
+#: ../includes/no-results.php:3
+msgid "No Results Found"
+msgstr "Nicht gefunden"
+
+#: ../includes/no-results.php:4
+msgid "The page you requested could not be found. Try refining your search, or use the navigation above to locate the post."
+msgstr "Keine Seite gefunden. Etwas anderes Suchen?"
+
+#: ../includes/breadcrumb.php:8
+msgid "Posts Tagged &quot;"
+msgstr "Artikel getaggt mit &quot;"
+
+#: ../includes/breadcrumb.php:10
+#: ../includes/breadcrumb.php:12
+#: ../includes/breadcrumb.php:14
+msgid "Posts made in"
+msgstr "Gepostet im"
+
+#: ../includes/breadcrumb.php:16
+msgid "Search results for"
+msgstr "Suchresultate"
+
+#: ../includes/navigation.php:2
+msgid "&laquo; Older Entries"
+msgstr "&laquo; &Auml;ltere Eintr&auml;ge"
+
+#: ../includes/navigation.php:3
+msgid "Next Entries &raquo;"
+msgstr "Neuere Eintr&auml;ge &raquo;"
+
+#: ../includes/entry.php:34
+#: ../includes/entry.php:41
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Permanenter Link zu %s "
+
+#: ../includes/widgets/widget-tabbed.php:20
+msgid "Recent"
+msgstr "Letztes"
+
+#: ../includes/widgets/widget-tabbed.php:21
+#: ../includes/widgets/widget-tabbed.php:36
+msgid "Popular"
+msgstr "Beliebt"
+
+#: ../includes/widgets/widget-tabbed.php:22
+#: ../includes/widgets/widget-tabbed.php:56
+msgid "Random"
+msgstr "Zufällig"
+
+#: ../includes/widgets/widget-tabbed.php:26
+msgid "From the Blog"
+msgstr "aus dem Blog"
+
+#: ../includes/functions/comments.php:14
+msgid "(Edit)"
+msgstr "(Bearbeiten)"
+
+#: ../includes/functions/comments.php:21
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar wartet auf die &Uuml;berpr&uuml;fung."
+
+#: ../includes/functions/comments.php:27
+msgid "Reply"
+msgstr "Beantworten"
+
+#: ../epanel/core_functions.php:26
+#: ../epanel/core_functions.php:363
+msgid "Saving..."
+msgstr ""
+
+#: ../epanel/core_functions.php:27
+msgid "Options Saved."
+msgstr ""
+
+#: ../epanel/core_functions.php:73
+msgid "Options"
+msgstr ""
+
+#: ../epanel/core_functions.php:73
+msgid "Theme Options"
+msgstr ""
+
+#: ../epanel/core_functions.php:87
+msgid "settings saved."
+msgstr ""
+
+#: ../epanel/core_functions.php:90
+msgid "settings reset."
+msgstr ""
+
+#: ../epanel/core_functions.php:108
+msgid "General Settings"
+msgstr ""
+
+#: ../epanel/core_functions.php:111
+msgid "Navigation"
+msgstr ""
+
+#: ../epanel/core_functions.php:114
+msgid "Layout Settings"
+msgstr ""
+
+#: ../epanel/core_functions.php:117
+msgid "Ad Management"
+msgstr ""
+
+#: ../epanel/core_functions.php:120
+msgid "Colorization"
+msgstr ""
+
+#: ../epanel/core_functions.php:123
+msgid "SEO"
+msgstr ""
+
+#: ../epanel/core_functions.php:126
+msgid "Integration"
+msgstr ""
+
+#: ../epanel/core_functions.php:129
+msgid "Support Docs"
+msgstr ""
+
+#: ../epanel/core_functions.php:196
+msgid "Upload Image"
+msgstr ""
+
+#: ../epanel/core_functions.php:218
+msgid "You don't have pages"
+msgstr ""
+
+#: ../epanel/core_functions.php:336
+msgid "Save changes"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:298
+msgid "Username:"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:299
+msgid "Password:"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:300
+msgid "Login"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:336
+msgid "Add a Tooltip Text"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:949
+msgid "Caption"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:950
+msgid "Caption goes here"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:951
+msgid "Caption title goes here"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:955
+msgid "State"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:957
+msgid "Select between expanded and closed state"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:962
+#: ../epanel/shortcodes/shortcodes.php:978
+#: ../epanel/shortcodes/shortcodes.php:1007
+#: ../epanel/shortcodes/shortcodes.php:1087
+msgid "Content"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:963
+#: ../epanel/shortcodes/shortcodes.php:979
+#: ../epanel/shortcodes/shortcodes.php:1065
+#: ../epanel/shortcodes/shortcodes.php:1088
+msgid "Content goes here"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:964
+#: ../epanel/shortcodes/shortcodes.php:980
+#: ../epanel/shortcodes/shortcodes.php:1009
+msgid "Content text or html"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:971
+#: ../epanel/shortcodes/shortcodes.php:993
+msgid "Type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:973
+msgid "Type of the box"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:987
+msgid "Link"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:989
+msgid "URL"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:995
+msgid "Choose button type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1000
+msgid "Color"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1002
+msgid "Choose button color"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1008
+msgid "Link text"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1013
+msgid "Icon"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1015
+msgid "Used for icon button type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1020
+msgid "Open link in new window"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1022
+msgid "Select yes if the link should be opened in a new window"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1030
+msgid "Slider Type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1032
+msgid "Select Slider Type here"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1037
+msgid "Effect"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1039
+msgid "Select Animation Effect"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1044
+msgid "Auto"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1046
+msgid "Choose yes if you want for automatic slider animation"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1051
+msgid "Auto Speed"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1053
+msgid "Automattic slider speed (works only if Auto is set to yes)"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1057
+msgid "Tab Text"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1064
+msgid "Tab Content"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1066
+msgid "Paste image url here, if you chose \"images\" slider type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1074
+msgid "Image Url"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1076
+msgid "Author Image URL"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1080
+msgid "Use resizing"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1157
+msgid "+ Add One More Tab"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1307
+msgid "Image Height"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1308
+msgid "Image Width"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:35
+msgid "ET Page Template Settings"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:62
+msgid "Additional settings appear here, when one of ET page templates is selected ( Page Attributes -> Template )"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:67
+msgid "Full Width Page"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:72
+msgid "Regenerate captcha numbers"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:76
+msgid "Email To:"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:82
+msgid "Blog Style mode"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:87
+msgid "Hide Auto Thumbnail"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:92
+msgid "Show Titles"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:97
+msgid "Show Descriptions"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:102
+msgid "Detect Portrait Images"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:106
+msgid "Thumbnail Size:"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:107
+msgid "Small"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:108
+msgid "Medium"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:109
+msgid "Large"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:113
+#: ../epanel/page_templates/page_templates.php:118
+msgid "Number of posts per page:"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:123
+msgid "Select blog categories:"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:142
+msgid "Select gallery categories:"
+msgstr ""
+
+#~ msgid "Posts by "
+#~ msgstr "Gepostet von"
+
+#~ msgid "You must be"
+#~ msgstr "Du musst"
+
+#~ msgid "logged in"
+#~ msgstr "eingeloggt"
+
+#~ msgid "to post a comment."
+#~ msgstr "sein um einen Kommentar zu schreiben."
+
+#~ msgid "Logged in as"
+#~ msgstr "Angemeldet als"
+
+#~ msgid "Log out &raquo;"
+#~ msgstr "Abmelden &raquo;"
+
+#~ msgid "(required)"
+#~ msgstr "(ben&ouml;tigt)"
+
+#~ msgid "Mail (will not be published)"
+#~ msgstr "Mail (wird nicht ver&ouml;ffentlicht)"
+
+#~ msgid "Website"
+#~ msgstr "Website"

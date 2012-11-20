@@ -1,0 +1,951 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 3C\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-02 13:26+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rainer <websolutions@mychacra.net>\n"
+"Language-Team: Ann <anochka1985@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../taxonomy.php:110
+msgid "Nothing Found"
+msgstr ""
+
+#: ../taxonomy.php:114
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: ../page-login.php:41
+#: ../page.php:28
+#: ../page-contact.php:90
+#: ../content-single.php:21
+#: ../page-full.php:34
+#: ../page-gallery.php:44
+msgid "Pages"
+msgstr ""
+
+#: ../page-login.php:47
+msgid "Username"
+msgstr ""
+
+#: ../page-login.php:48
+msgid "Password"
+msgstr ""
+
+#: ../page-login.php:52
+msgid "Not a member?"
+msgstr ""
+
+#: ../page-login.php:52
+msgid "Register today!"
+msgstr ""
+
+#: ../page-login.php:58
+#: ../page.php:29
+#: ../page-contact.php:139
+#: ../content-single.php:22
+#: ../page-full.php:35
+#: ../page-gallery.php:86
+msgid "Edit this page"
+msgstr ""
+
+#: ../searchform.php:7
+#: ../searchform.php:8
+#: ../searchform_spec.php:4
+#: ../searchform_spec.php:5
+msgid "Search"
+msgstr ""
+
+#: ../searchform.php:13
+msgid "Choisir categorie..."
+msgstr ""
+
+#: ../searchform.php:14
+#: ../searchform_spec.php:11
+msgid "Voir"
+msgstr ""
+
+#: ../page-contact.php:22
+msgid "Make sure you entered the captcha. "
+msgstr ""
+
+#: ../page-contact.php:25
+msgid "Numbers regenerated."
+msgstr ""
+
+#: ../page-contact.php:26
+msgid "You entered the wrong number in captcha. "
+msgstr ""
+
+#: ../page-contact.php:35
+msgid "Make sure you fill all fields. "
+msgstr ""
+
+#: ../page-contact.php:40
+msgid "Invalid Email. "
+msgstr ""
+
+#: ../page-contact.php:61
+msgid "Thanks for contacting us"
+msgstr ""
+
+#: ../page-contact.php:100
+msgid "Name"
+msgstr ""
+
+#: ../page-contact.php:104
+msgid "Email Address"
+msgstr ""
+
+#: ../page-contact.php:108
+msgid "Subject"
+msgstr ""
+
+#: ../page-contact.php:115
+msgid "Captcha: "
+msgstr ""
+
+#: ../page-contact.php:131
+msgid "Reset"
+msgstr ""
+
+#: ../page-contact.php:132
+msgid "Submit"
+msgstr ""
+
+#: ../functions.php:42
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:43
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:71
+msgid "entreprises"
+msgstr ""
+
+#: ../functions.php:72
+msgid "entreprise"
+msgstr ""
+
+#: ../functions.php:73
+msgid "Companies"
+msgstr ""
+
+#: ../functions.php:74
+msgid "Add company"
+msgstr ""
+
+#: ../functions.php:75
+msgid "Add A New Company"
+msgstr ""
+
+#: ../functions.php:76
+msgid "Edit Company Profile"
+msgstr ""
+
+#: ../functions.php:77
+msgid "Edit Company"
+msgstr ""
+
+#: ../functions.php:78
+msgid "New Company"
+msgstr ""
+
+#: ../functions.php:79
+#: ../functions.php:80
+msgid "Preview Company"
+msgstr ""
+
+#: ../functions.php:81
+msgid "Search Company"
+msgstr ""
+
+#: ../functions.php:82
+msgid "Company Not Found"
+msgstr ""
+
+#: ../functions.php:83
+msgid "Company Not Found TO TRASH"
+msgstr ""
+
+#: ../functions.php:84
+msgid "Parent Company"
+msgstr ""
+
+#: ../functions.php:212
+#: ../functions.php:735
+msgid "Information additionnel"
+msgstr ""
+
+#: ../functions.php:330
+#: ../author.php:132
+#: ../single-entreprise.php:78
+msgid "Fonction"
+msgstr ""
+
+#: ../functions.php:331
+msgid "Formation"
+msgstr ""
+
+#: ../functions.php:332
+msgid "Niveau Experience"
+msgstr ""
+
+#: ../functions.php:333
+#: ../functions.php:365
+msgid "Company type"
+msgstr ""
+
+#: ../functions.php:334
+msgid "Company category"
+msgstr ""
+
+#: ../functions.php:384
+#: ../functions.php:385
+msgid "Select type"
+msgstr ""
+
+#: ../functions.php:513
+#: ../functions.php:548
+#: ../functions.php:583
+msgid "Users"
+msgstr ""
+
+#: ../functions.php:626
+msgid "Site Internet personnel"
+msgstr ""
+
+#: ../functions.php:627
+msgid "Facebook"
+msgstr ""
+
+#: ../functions.php:628
+#: ../single-entreprise.php:43
+msgid "Twitter"
+msgstr ""
+
+#: ../functions.php:629
+msgid "Google+"
+msgstr ""
+
+#: ../functions.php:630
+msgid "Skype"
+msgstr ""
+
+#: ../functions.php:631
+msgid "Jabber"
+msgstr ""
+
+#: ../functions.php:631
+msgid "Google Talk"
+msgstr ""
+
+#: ../functions.php:656
+msgid "Informations Professionnelles"
+msgstr ""
+
+#: ../functions.php:661
+msgid "Choisir Fonction"
+msgstr ""
+
+#: ../functions.php:668
+msgid "Aucune Fonction"
+msgstr ""
+
+#: ../functions.php:671
+msgid "fonction"
+msgstr ""
+
+#: ../functions.php:677
+msgid "Aucune fonction disponible"
+msgstr ""
+
+#: ../functions.php:683
+msgid "Choisir Formation"
+msgstr ""
+
+#: ../functions.php:690
+msgid "Aucune Formation"
+msgstr ""
+
+#: ../functions.php:693
+msgid "formation"
+msgstr ""
+
+#: ../functions.php:699
+msgid "Aucune formation disponible"
+msgstr ""
+
+#: ../functions.php:705
+msgid "Choisir experience"
+msgstr ""
+
+#: ../functions.php:712
+msgid "Aucune experience"
+msgstr ""
+
+#: ../functions.php:715
+msgid "niveau_experience"
+msgstr ""
+
+#: ../functions.php:721
+msgid "Aucune experience disponible"
+msgstr ""
+
+#: ../functions.php:727
+msgid "annnee_experience_comm_corp"
+msgstr ""
+
+#: ../functions.php:740
+msgid "adresse_prive"
+msgstr ""
+
+#: ../functions.php:747
+msgid "numero"
+msgstr ""
+
+#: ../functions.php:754
+msgid "code_postal"
+msgstr ""
+
+#: ../functions.php:761
+msgid "ville"
+msgstr ""
+
+#: ../functions.php:768
+msgid "telephone"
+msgstr ""
+
+#: ../functions.php:775
+msgid "fax"
+msgstr ""
+
+#: ../functions.php:792
+msgid "date_naissance"
+msgstr ""
+
+#: ../functions.php:799
+msgid "lang"
+msgstr ""
+
+#: ../functions.php:808
+#: ../author.php:102
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../functions.php:808
+msgid "Preview profile"
+msgstr ""
+
+#: ../functions.php:980
+msgid "Save Changes"
+msgstr ""
+
+#: ../author.php:51
+msgid "Choisir membre"
+msgstr ""
+
+#: ../author.php:69
+msgid "Profile"
+msgstr ""
+
+#: ../author.php:98
+msgid "Les Entreprises"
+msgstr ""
+
+#: ../author.php:140
+msgid "Access non authorise, devenez membre"
+msgstr ""
+
+#: ../page-gallery.php:68
+msgid "Zoom in"
+msgstr ""
+
+#: ../page-gallery.php:69
+msgid "Read more"
+msgstr ""
+
+#: ../header.php:50
+msgid "search this site..."
+msgstr ""
+
+#: ../header.php:74
+msgid "Home"
+msgstr ""
+
+#: ../searchform_spec.php:10
+msgid "Acceder fiche membre"
+msgstr ""
+
+#: ../single-entreprise.php:27
+msgid "Contact"
+msgstr ""
+
+#: ../single-entreprise.php:41
+msgid "Websites"
+msgstr ""
+
+#: ../single-entreprise.php:43
+msgid "Site Internet"
+msgstr ""
+
+#: ../single-entreprise.php:53
+msgid "Pages:"
+msgstr ""
+
+#: ../single-entreprise.php:64
+msgid "Membres"
+msgstr ""
+
+#: ../single-entreprise.php:95
+#: ../single-entreprise.php:98
+msgid ", "
+msgstr ""
+
+#: ../single-entreprise.php:101
+msgid "Edit"
+msgstr ""
+
+#: ../comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:17
+msgid "No comments"
+msgstr ""
+
+#: ../comments.php:17
+msgid "One comment"
+msgstr ""
+
+#: ../comments.php:17
+#: ../page-blog.php:63
+msgid "comments"
+msgstr ""
+
+#: ../comments.php:21
+#: ../comments.php:34
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: ../comments.php:22
+#: ../comments.php:35
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../comments.php:41
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#: ../comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:59
+msgid "Submit Comment"
+msgstr ""
+
+#: ../comments.php:59
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:59
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../page-blog.php:63
+msgid "Posted"
+msgstr ""
+
+#: ../page-blog.php:63
+msgid "by"
+msgstr ""
+
+#: ../page-blog.php:63
+msgid "on"
+msgstr ""
+
+#: ../page-blog.php:63
+msgid "in"
+msgstr ""
+
+#: ../page-blog.php:63
+msgid "0 comments"
+msgstr ""
+
+#: ../page-blog.php:63
+msgid "1 comment"
+msgstr ""
+
+#: ../page-blog.php:83
+msgid "read more"
+msgstr ""
+
+#: ../footer.php:16
+msgid "Designed by "
+msgstr ""
+
+#: ../page-sitemap.php:50
+msgid "Categories"
+msgstr ""
+
+#: ../page-sitemap.php:55
+msgid "Tags"
+msgstr ""
+
+#: ../page-sitemap.php:67
+msgid "Authors"
+msgstr ""
+
+#: ../page-search.php:45
+msgid "search this website"
+msgstr ""
+
+#: ../page-search.php:50
+msgid "Posts"
+msgstr ""
+
+#: ../page-search.php:54
+msgid "Select a month"
+msgstr ""
+
+#: ../search.php:34
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../search.php:66
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: ../includes/featured.php:3
+msgid "Previous"
+msgstr ""
+
+#: ../includes/featured.php:4
+msgid "Next"
+msgstr ""
+
+#: ../includes/featured.php:57
+#: ../includes/entry.php:49
+msgid "Read More"
+msgstr ""
+
+#: ../includes/no-results.php:3
+msgid "No Results Found"
+msgstr ""
+
+#: ../includes/no-results.php:4
+msgid "The page you requested could not be found. Try refining your search, or use the navigation above to locate the post."
+msgstr ""
+
+#: ../includes/breadcrumb.php:8
+msgid "Posts Tagged &quot;"
+msgstr ""
+
+#: ../includes/breadcrumb.php:10
+#: ../includes/breadcrumb.php:12
+#: ../includes/breadcrumb.php:14
+msgid "Posts made in"
+msgstr ""
+
+#: ../includes/breadcrumb.php:16
+msgid "Search results for"
+msgstr ""
+
+#: ../includes/navigation.php:2
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: ../includes/navigation.php:3
+msgid "Next Entries &raquo;"
+msgstr ""
+
+#: ../includes/entry.php:34
+#: ../includes/entry.php:41
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: ../includes/widgets/widget-tabbed.php:20
+msgid "Recent"
+msgstr ""
+
+#: ../includes/widgets/widget-tabbed.php:21
+#: ../includes/widgets/widget-tabbed.php:36
+msgid "Popular"
+msgstr ""
+
+#: ../includes/widgets/widget-tabbed.php:22
+#: ../includes/widgets/widget-tabbed.php:56
+msgid "Random"
+msgstr ""
+
+#: ../includes/widgets/widget-tabbed.php:26
+msgid "From the Blog"
+msgstr ""
+
+#: ../includes/functions/comments.php:14
+msgid "(Edit)"
+msgstr ""
+
+#: ../includes/functions/comments.php:21
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../includes/functions/comments.php:27
+msgid "Reply"
+msgstr ""
+
+#: ../epanel/core_functions.php:26
+#: ../epanel/core_functions.php:363
+msgid "Saving..."
+msgstr ""
+
+#: ../epanel/core_functions.php:27
+msgid "Options Saved."
+msgstr ""
+
+#: ../epanel/core_functions.php:73
+msgid "Options"
+msgstr ""
+
+#: ../epanel/core_functions.php:73
+msgid "Theme Options"
+msgstr ""
+
+#: ../epanel/core_functions.php:87
+msgid "settings saved."
+msgstr ""
+
+#: ../epanel/core_functions.php:90
+msgid "settings reset."
+msgstr ""
+
+#: ../epanel/core_functions.php:108
+msgid "General Settings"
+msgstr ""
+
+#: ../epanel/core_functions.php:111
+msgid "Navigation"
+msgstr ""
+
+#: ../epanel/core_functions.php:114
+msgid "Layout Settings"
+msgstr ""
+
+#: ../epanel/core_functions.php:117
+msgid "Ad Management"
+msgstr ""
+
+#: ../epanel/core_functions.php:120
+msgid "Colorization"
+msgstr ""
+
+#: ../epanel/core_functions.php:123
+msgid "SEO"
+msgstr ""
+
+#: ../epanel/core_functions.php:126
+msgid "Integration"
+msgstr ""
+
+#: ../epanel/core_functions.php:129
+msgid "Support Docs"
+msgstr ""
+
+#: ../epanel/core_functions.php:196
+msgid "Upload Image"
+msgstr ""
+
+#: ../epanel/core_functions.php:218
+msgid "You don't have pages"
+msgstr ""
+
+#: ../epanel/core_functions.php:336
+msgid "Save changes"
+msgstr ""
+
+#: ../epanel/core_functions.php:347
+msgid "This will return all of the settings throughout the options page to their default values. <strong>Are you sure you want to do this?"
+msgstr ""
+
+#: ../epanel/custom_functions.php:665
+msgid "Image doesn't exist"
+msgstr ""
+
+#: ../epanel/custom_functions.php:829
+#, php-format
+msgid "<div class=\"updated\"><p>This is a fresh installation of %1$s theme. Don't forget to go to <a href=\"%2$s\">ePanel</a> to set it up. This message will disappear once you have clicked the Save button within the <a href=\"%2$s\">theme's options page</a>.</p></div>"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:298
+msgid "Username:"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:299
+msgid "Password:"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:300
+msgid "Login"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:303
+#, php-format
+msgid "Not a member? <a href=\"%s\">Register today!</a>"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:336
+msgid "Add a Tooltip Text"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:356
+msgid "Click here to learn more"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:949
+msgid "Caption"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:950
+msgid "Caption goes here"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:951
+msgid "Caption title goes here"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:955
+msgid "State"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:957
+msgid "Select between expanded and closed state"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:962
+#: ../epanel/shortcodes/shortcodes.php:978
+#: ../epanel/shortcodes/shortcodes.php:1007
+#: ../epanel/shortcodes/shortcodes.php:1087
+msgid "Content"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:963
+#: ../epanel/shortcodes/shortcodes.php:979
+#: ../epanel/shortcodes/shortcodes.php:1065
+#: ../epanel/shortcodes/shortcodes.php:1088
+msgid "Content goes here"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:964
+#: ../epanel/shortcodes/shortcodes.php:980
+#: ../epanel/shortcodes/shortcodes.php:1009
+msgid "Content text or html"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:971
+#: ../epanel/shortcodes/shortcodes.php:993
+msgid "Type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:973
+msgid "Type of the box"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:987
+msgid "Link"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:989
+msgid "URL"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:995
+msgid "Choose button type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1000
+msgid "Color"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1002
+msgid "Choose button color"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1008
+msgid "Link text"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1013
+msgid "Icon"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1015
+msgid "Used for icon button type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1020
+msgid "Open link in new window"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1022
+msgid "Select yes if the link should be opened in a new window"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1030
+msgid "Slider Type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1032
+msgid "Select Slider Type here"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1037
+msgid "Effect"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1039
+msgid "Select Animation Effect"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1044
+msgid "Auto"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1046
+msgid "Choose yes if you want for automatic slider animation"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1051
+msgid "Auto Speed"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1053
+msgid "Automattic slider speed (works only if Auto is set to yes)"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1057
+msgid "Tab Text"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1064
+msgid "Tab Content"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1066
+msgid "Paste image url here, if you chose \"images\" slider type"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1074
+msgid "Image Url"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1076
+msgid "Author Image URL"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1080
+msgid "Use resizing"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1157
+msgid "+ Add One More Tab"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1307
+msgid "Image Height"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:1308
+msgid "Image Width"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:35
+msgid "ET Page Template Settings"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:62
+msgid "Additional settings appear here, when one of ET page templates is selected ( Page Attributes -> Template )"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:67
+msgid "Full Width Page"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:72
+msgid "Regenerate captcha numbers"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:76
+msgid "Email To:"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:82
+msgid "Blog Style mode"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:87
+msgid "Hide Auto Thumbnail"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:92
+msgid "Show Titles"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:97
+msgid "Show Descriptions"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:102
+msgid "Detect Portrait Images"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:106
+msgid "Thumbnail Size:"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:107
+msgid "Small"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:108
+msgid "Medium"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:109
+msgid "Large"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:113
+#: ../epanel/page_templates/page_templates.php:118
+msgid "Number of posts per page:"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:123
+msgid "Select blog categories:"
+msgstr ""
+
+#: ../epanel/page_templates/page_templates.php:142
+msgid "Select gallery categories:"
+msgstr ""
+
