@@ -63,7 +63,7 @@
 			foreach($fields_websites AS $field=>$label){
 				if(get_post_meta($post->ID,$prefix.$field,true))
 				if($field=='site_internet')
-				echo '<li>'.$label. ' : <a href="'.qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage(get_post_meta($post->ID,$prefix.$field,true)).'">'.qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage(get_post_meta($post->ID,$prefix.$field,true)).'</a></li>';
+				echo '<li><a href="'.qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage(get_post_meta($post->ID,$prefix.$field,true)).'">'.qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage(get_post_meta($post->ID,$prefix.$field,true)).'</a></li>';
 				else echo '<li>'.$label. ' : '.qtrans_useCurrentLanguageIfNotFoundUseDefaultLanguage(get_post_meta($post->ID,$prefix.$field,true)).'</a></li>';
 					
 			}
