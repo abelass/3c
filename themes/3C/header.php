@@ -59,7 +59,8 @@
 <?php
 
 
-if (function_exists('qts_language_menu') ) qts_language_menu('text');
+//if (function_exists('qts_language_menu') ) qts_language_menu('text');
+ qTranslateSlug_generateLanguageSelectCode();
  
  ?>
 </div>
@@ -69,7 +70,7 @@ if (function_exists('qts_language_menu') ) qts_language_menu('text');
                         echo '<a class="linklogin" href="'.wp_logout_url( home_url() ).'" title="Log Out">Log-Out</a>';                        
 
                     } else { ?>
-                        <a class="linklogin" href="http://3c.spade.be/wp-login.php">Log In</a>
+                        <a class="linklogin" href="http://www.3c.be/wp-login.php">Log In</a>
                     <?php } ?>
 
 
