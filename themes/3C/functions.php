@@ -370,8 +370,8 @@ if ( !class_exists('myCustomFields') ) {
 						if ( $customField['type'] == "wysiwyg" ) $value = wpautop( $value );
 						update_post_meta( $post_id, $this->prefix . $customField[ 'name' ], $value );
 					} else {echo 2;
-						return 'error';
-						//delete_post_meta( $post_id, $this->prefix . $customField[ 'name' ] );
+						//return 'error';
+						delete_post_meta( $post_id, $this->prefix . $customField[ 'name' ] );
 					}
 				}
 			}
